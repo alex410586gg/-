@@ -1,0 +1,377 @@
+local Library = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Window = Fluent:CreateWindow({
+    Title = "Script Thập Cẩm" .. Fluent.Version,
+    SubTitle = "by Long",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+})
+
+Fluent:Notify({
+        Title = "Script Has Loaded",
+        Content = "Script Has Loaded",
+        SubContent = "SubContent", -- Optional
+        Duration = 5 -- Set to nil to make the notification not disappear
+})
+
+
+-- Fluent provides Lucide Icons, they are optional
+local Tabs = {
+    Main = Window:AddTab({ Title = "BLox Fruit", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+
+
+local Section = Tab:AddSection("Main")
+
+
+
+
+Tab:AddButton({
+    Title = "W Azure Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Xero Hub",
+    Description = "No Key",
+    Callback = function()
+loadstring(game:HttpGet("http://apixerohub.x10.mx/new_main.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Andepzai Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+Tab:AddButton({
+    Title = "Redz Hub",
+    Description = "No Key",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Hoho Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+Tab:AddButton({
+    Title = "Min Hub",
+    Description = "Get Key",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JonnyCheeser/bloxfruits/main/minhubv4"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+Tab:AddButton({
+    Title = "Relz Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Aurora Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Zet Hub",
+    Description = "No Key",
+    Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptztyz/robloxscript/refs/heads/main/ZetHubMainScript"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Attack Hub",
+    Description = "No Key",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+Tab:AddButton({
+    Title = "Green X Hub",
+    Description = "No KeyC",
+    Callback = function()
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/BreakNameFast8/GreenX/refs/heads/main/green.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+Tab:AddButton({
+    Title = "Lunar Hub",
+    Description = "Very important button",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/anhyeuem/main/bloxshitfarm.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+    
+
+
+
+
+Tab:AddButton({
+    Title = "Moon Hub",
+    Description = "Get Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub", true))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Smile Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyLocDz/Blox-Fruit/main/TinhLinhHub.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+Tab:AddButton({
+    Title = "Damon Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/seagame/main/Damonvip.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Speed X Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Tsuo Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+        print("Hello, world!")
+    end
+})
+
+
+Tab:AddButton({
+    Title = "Xeter Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Mashii Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Flontium2/Mashii-Hub/refs/heads/main/Main.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Crescent",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Xyzzz1Project/ScriptProject-Anti-Tamper/main/CrescentMoonAntiTamperV2"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Rise Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Hutao Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/Bloxfruit2.lua'))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Hiru Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/main/HiruDone.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Zen Hub Nextgen ",
+    Description = "Get Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+Tab:AddButton({
+    Title = "Beni Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/BeniHub", true))()
+        print("Hello, world!")
+     end
+})
+
+
+
+Tab:AddButton({
+    Title = "Rise Hub Newver",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+        print("Hello, world!")
+    end
+})
+
+
+
+
+
+
+Tab:AddButton({
+    Title = "Cyan Hub",
+    Description = "No Key",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly/VectorHub/main/CyanHub", true))()
+        print("Hello, world!")
+    end
+})
